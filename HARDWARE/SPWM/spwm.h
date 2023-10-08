@@ -22,6 +22,8 @@ extern u8 pfreq;
 
 void spwm_init(u16 pfreq,u16 pse);
 void tim8_init(u16 pfreq);
+void tim2_init(u16 pfreq,u16 pse);
+
 
 
 #endif

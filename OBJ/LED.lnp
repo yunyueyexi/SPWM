@@ -3,6 +3,11 @@
 "..\obj\stm32f10x_it.o"
 "..\obj\system_stm32f10x.o"
 "..\obj\spwm.o"
+"..\obj\oled.o"
+"..\obj\usart3.o"
+"..\obj\key.o"
+"..\obj\adc.o"
+"..\obj\pid.o"
 "..\obj\delay.o"
 "..\obj\sys.o"
 "..\obj\usart.o"
@@ -13,7 +18,9 @@
 "..\obj\stm32f10x_usart.o"
 "..\obj\misc.o"
 "..\obj\stm32f10x_tim.o"
+"..\obj\stm32f10x_exti.o"
+"..\obj\stm32f10x_adc.o"
 --strict --scatter "..\OBJ\LED.sct"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\LED.map" -o ..\OBJ\LED.axf
